@@ -1,0 +1,16 @@
+version: '3.1'
+services:
+  web_1:
+    image: php:7.2-apache
+    ports:
+      - "80:80"
+    volumes:
+      - ./web_1:/var/www/html
+
+
+  web_2:
+    image: php:7.2-apache
+    ports:
+      - "81:80"
+    volumes:
+      - ./web_2:/var/www/html

@@ -1,0 +1,16 @@
+body {
+    background-color: lightgreen;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.post {
+    background-color: lightcoral;
+    padding: 10px;
+    margin-bottom: 10px;
+}
